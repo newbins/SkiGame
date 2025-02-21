@@ -1,0 +1,11 @@
+
+=== Thu Feb 20 10:14:44 2025
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were added:
+  com.unity.multiplayer.center@1.0.0
+The following packages were updated:
+  com.unity.ai.navigation from version 2.0.4 to 2.0.5
+  com.unity.collab-proxy from version 2.4.4 to 2.6.0
