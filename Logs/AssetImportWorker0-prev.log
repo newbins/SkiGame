@@ -2,8 +2,8 @@ Unity Editor version:    6000.0.36f1 (9fe3b5f71dbb)
 Branch:                  6000.0/staging
 Build type:              Release
 Batch mode:              YES
-macOS version:           Version 15.3.1 (Build 24D70)
-Darwin version:          24.3.0
+macOS version:           Version 15.1.1 (Build 24B91)
+Darwin version:          24.1.0
 Architecture:            x86_64
 Running under Rosetta:   NO
 Available memory:        16384 MB
@@ -16,13 +16,13 @@ COMMAND LINE ARGUMENTS:
 -batchMode
 -noUpm
 -name
-AssetImportWorker1
+AssetImportWorker0
 -projectPath
 /Users/newbins/Documents/GitHub/SkiGame
 -logFile
-Logs/AssetImportWorker1.log
+Logs/AssetImportWorker0.log
 -srvPort
-61977
+49495
 -job-worker-count
 5
 -background-job-worker-count
@@ -66,12 +66,12 @@ Successfully changed project path to: /Users/newbins/Documents/GitHub/SkiGame
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [140704273238784]  Target information:
+Player connection [140704493071168]  Target information:
 
-Player connection [140704273238784]  * "[IP] 192.168.1.71 [Port] 0 [Flags] 2 [Guid] 196017920 [EditorId] 196017920 [Version] 1048832 [Id] OSXEditor(0,MacBookPro) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [140704493071168]  * "[IP] 9.236.82.249 [Port] 0 [Flags] 2 [Guid] 2096418038 [EditorId] 2096418038 [Version] 1048832 [Id] OSXEditor(0,JOSHUAs-MacBook-Pro-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
-Player connection [140704273238784] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [140704273238784] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [140704493071168] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [140704493071168] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -83,7 +83,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.43 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 3.23 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.36f1 (9fe3b5f71dbb)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.0.36f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -99,43 +99,43 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.0.36f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.0.36f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.0.36f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56650
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56552
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.0.36f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.002004 seconds.
-- Loaded All Assemblies, in  0.568 seconds
+Registered in 0.004604 seconds.
+- Loaded All Assemblies, in  0.679 seconds
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.606 seconds
-Domain Reload Profiling: 1173ms
-	BeginReloadAssembly (150ms)
+- Finished resetting the current domain, in  0.544 seconds
+Domain Reload Profiling: 1223ms
+	BeginReloadAssembly (245ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (65ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (67ms)
-	LoadAllAssembliesAndSetupDomain (268ms)
-		LoadAssemblies (150ms)
+	RebuildCommonClasses (71ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (78ms)
+	LoadAllAssembliesAndSetupDomain (264ms)
+		LoadAssemblies (245ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (264ms)
-			TypeCache.Refresh (260ms)
-				TypeCache.ScanAssembly (238ms)
+		AnalyzeDomain (259ms)
+			TypeCache.Refresh (256ms)
+				TypeCache.ScanAssembly (235ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (606ms)
+	FinalizeReload (544ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (542ms)
+		SetupLoadedEditorAssemblies (481ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (69ms)
 			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (84ms)
-			ProcessInitializeOnLoadAttributes (281ms)
-			ProcessInitializeOnLoadMethodAttributes (100ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (209ms)
+			ProcessInitializeOnLoadMethodAttributes (117ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -147,7 +147,7 @@ Import Worker Mode flag is 0x00
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.110 seconds
+- Loaded All Assemblies, in  1.027 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
 Native extension for OSXStandalone target not found
@@ -160,104 +160,102 @@ Package Manager log level set to [2]
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-Ski Game
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.459 seconds
-Domain Reload Profiling: 2568ms
-	BeginReloadAssembly (228ms)
+- Finished resetting the current domain, in  1.359 seconds
+Domain Reload Profiling: 2379ms
+	BeginReloadAssembly (217ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (69ms)
+		CreateAndSetChildDomain (61ms)
 	RebuildCommonClasses (62ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (49ms)
-	LoadAllAssembliesAndSetupDomain (752ms)
-		LoadAssemblies (551ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (672ms)
+		LoadAssemblies (486ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (305ms)
-			TypeCache.Refresh (242ms)
-				TypeCache.ScanAssembly (218ms)
-			BuildScriptInfoCaches (49ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1459ms)
+		AnalyzeDomain (290ms)
+			TypeCache.Refresh (229ms)
+				TypeCache.ScanAssembly (208ms)
+			BuildScriptInfoCaches (48ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1360ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1277ms)
+		SetupLoadedEditorAssemblies (1164ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (143ms)
-			ProcessInitializeOnLoadAttributes (971ms)
-			ProcessInitializeOnLoadMethodAttributes (153ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (128ms)
+			ProcessInitializeOnLoadAttributes (885ms)
+			ProcessInitializeOnLoadMethodAttributes (139ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
 Launching external process: /Applications/Unity/Hub/Editor/6000.0.36f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.11 seconds
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 130 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4296 unused Assets / (6.7 MB). Loaded Objects now: 4817.
-Memory consumption went from 123.9 MB to 117.3 MB.
-Total: 14.081194 ms (FindLiveObjects: 0.712591 ms CreateObjectMapping: 0.677569 ms MarkObjects: 9.065012 ms  DeleteObjects: 3.624259 ms)
+Unloading 4296 unused Assets / (6.8 MB). Loaded Objects now: 4817.
+Memory consumption went from 125.3 MB to 118.5 MB.
+Total: 9.361898 ms (FindLiveObjects: 0.468848 ms CreateObjectMapping: 0.500399 ms MarkObjects: 5.939055 ms  DeleteObjects: 2.452521 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 165808.284697 seconds.
-  path: Assets/Prefabs/CloudLarge.prefab
-  artifactKey: Guid(71bbaa3db47812a4e9b0e8db0dc7e1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CloudLarge.prefab using Guid(71bbaa3db47812a4e9b0e8db0dc7e1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d38d6ad6430016193c03c2fbceac5fa') in 0.521209253 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+  Time since last request: 215823.696153 seconds.
+  path: Assets/Scenes/SkiGame_Course3_Session4_Optimization/LightingData.asset
+  artifactKey: Guid(a6e4cb93eea2a7e4394cb01c272694db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SkiGame_Course3_Session4_Optimization/LightingData.asset using Guid(a6e4cb93eea2a7e4394cb01c272694db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)Lighting data asset ‘LightingData’ is incompatible with the current Unity version because the scene it was baked for was not serialized. Please use Generate Lighting to rebuild the lighting data, or assign the target scene to the Lighting Data Asset in the inspector.
+ -> (artifact id: '8fa3e45ece24501aee1ba6eef4d9261c') in 0.026275657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000135 seconds.
-  path: Assets/Prefabs/CloudSmall.prefab
-  artifactKey: Guid(11af22bafcb07bb4eb5ce54fc0e31399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CloudSmall.prefab using Guid(11af22bafcb07bb4eb5ce54fc0e31399) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '50b0c93845c587106380ee0075f45e62') in 0.012649186 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+  Time since last request: 72.711167 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(aae31c5dd779a054793ef06e372dd6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(aae31c5dd779a054793ef06e372dd6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90f7fa3c8da08bd8df8b899a67d042aa') in 0.000965345 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Prefabs/UICanvas.prefab
-  artifactKey: Guid(49ee210ac0510844d8da858708681a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UICanvas.prefab using Guid(49ee210ac0510844d8da858708681a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a4793ac85f97cc97661af67dfbfd3b69') in 0.047041767 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 54
+  Time since last request: 13.466632 seconds.
+  path: Assets/Scenes/SkiGame_Course4_Session1_ExampleTitle.unity
+  artifactKey: Guid(373101305ba224d4383b116b2151cd5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SkiGame_Course4_Session1_ExampleTitle.unity using Guid(373101305ba224d4383b116b2151cd5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2029389ce94969df08cfd8916f7cc022') in 0.000526498 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/Prefabs/CloudDouble.prefab
-  artifactKey: Guid(492f32e443185ac40956e16c1076c0dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CloudDouble.prefab using Guid(492f32e443185ac40956e16c1076c0dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e6a54a21164c13a19a421e9145103a10') in 0.01760725 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 64
+  Time since last request: 13.253038 seconds.
+  path: Assets/Scenes/SkiGame_Course3_Session4_Optimization
+  artifactKey: Guid(f03de7c6a940e6a4c96978565f10418d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SkiGame_Course3_Session4_Optimization using Guid(f03de7c6a940e6a4c96978565f10418d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1595d1323fc002fd552e8534ab2055dd') in 0.000456112 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000094 seconds.
-  path: Assets/Prefabs/CloudMedium.prefab
-  artifactKey: Guid(68e5f27c723f15043a3c95a879e449be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CloudMedium.prefab using Guid(68e5f27c723f15043a3c95a879e449be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38419f3ff0b2263488762a5f768040fc') in 0.01711792 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+  Time since last request: 8.114588 seconds.
+  path: Assets/Scenes/SkiGame_Course3_Session4_OptimizationSettings.lighting
+  artifactKey: Guid(b2d834d20356a324bb2b1377e0cf20d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SkiGame_Course3_Session4_OptimizationSettings.lighting using Guid(b2d834d20356a324bb2b1377e0cf20d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d3b5ec26564850dd8a78cd114364acc') in 0.002886296 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000101 seconds.
-  path: Assets/Prefabs/TreeSmall.prefab
-  artifactKey: Guid(def1b5a67cc195940922b5f6a9a5c9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TreeSmall.prefab using Guid(def1b5a67cc195940922b5f6a9a5c9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f90739f57843a803ed09d2aff125c4bf') in 0.010222791 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+  Time since last request: 1935.322470 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(22b9d05f7e176504cb7cfc9e4f579aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(22b9d05f7e176504cb7cfc9e4f579aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3aac9c435682b8f3c1e55cf534bd8e3d') in 0.000909919 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/Prefabs/Tree.prefab
-  artifactKey: Guid(006db0bb6c947394c988fe7797f8bb38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tree.prefab using Guid(006db0bb6c947394c988fe7797f8bb38) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7154fc6d95cf3eef6dcd681edf12c71d') in 0.017583414 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+  Time since last request: 96.197536 seconds.
+  path: Assets/Scenes/SkiGame_Level1.unity
+  artifactKey: Guid(354689a7b0df94f9791d34ec0d6c564b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SkiGame_Level1.unity using Guid(354689a7b0df94f9791d34ec0d6c564b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec0d904058ff9e9e33fb7286d3db5dca') in 0.000782486 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
